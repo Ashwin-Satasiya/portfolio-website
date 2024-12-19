@@ -11,7 +11,7 @@ const Projects = () => {
         "Clean, user-friendly design, responsive layout, easy navigation",
       technologiesUsed: "React, Bootstrap, CSS, JavaScript.",
       liveDemoLink: "https://portfoliowebsite-app.netlify.app/",
-      gitHubLink: "#",
+      gitHubLink: "https://github.com/Ashwin-Satasiya/portfolio-website",
     },
     {
       title: "To-Do List App",
