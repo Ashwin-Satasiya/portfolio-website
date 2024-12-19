@@ -1,0 +1,28 @@
+.contact-main {
+  padding: 25px 0px;
+}
+
+.card {
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.btn-outline-primary {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+textarea {
+  border-radius: 8px;
+}
+
+@media (max-width: 767px) {
+  .card {
+    padding: 2rem;
+  }
+}

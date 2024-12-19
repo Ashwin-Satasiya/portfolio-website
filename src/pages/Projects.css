@@ -1,0 +1,18 @@
+.projects-main {
+  padding: 25px 0px;
+}
+
+.card-main-projects {
+  background: linear-gradient(
+    to right,
+    rgb(192, 192, 243),
+    rgb(233, 233, 190),
+    rgb(181, 209, 181)
+  );
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card-main-projects:hover {
+  transform: translateY(-8px);
+  box-shadow: 8px 5px 12px rgb(114, 133, 114);
+}

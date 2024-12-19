@@ -1,0 +1,29 @@
+.skills-main {
+  padding: 25px 0px;
+  min-height: 500px;
+}
+
+.skill-card {
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.skill-card .card-title {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.skill-card .progress-bar {
+  height: 20px;
+  border-radius: 5px;
+}
+
+.skill-card .progress-bar-info {
+  background-color: #1e90ff;
+}
+
+@media (max-width: 767px) {
+  .skill-card {
+    margin-bottom: 20px;
+  }
+}

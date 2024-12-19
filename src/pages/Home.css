@@ -1,0 +1,63 @@
+.hero-main {
+  padding: 25px 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-height: 550px;
+}
+
+.name {
+  display: inline-block;
+  letter-spacing: 8px;
+  border-radius: 8px;
+  padding: 1px 8px;
+  font-style: italic;
+  color: rgb(233, 117, 22);
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.hero-about-text {
+  max-width: 80%;
+  text-align: justify;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.hero-image img {
+  max-height: 450px;
+}
+
+@media (max-width: 575px) {
+  .hero-content {
+    margin-bottom: 30px;
+  }
+
+  .hero-content .hero-name-text,
+  h3,
+  .hero-about-text {
+    max-width: 100%;
+    font-size: 16px;
+    text-align: start;
+  }
+
+  .view-projects-btn-container {
+    text-align: center;
+  }
+
+  .view-projects-btn {
+    padding: 5px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero-name-text {
+    font-size: 25px;
+  }
+  .name {
+    font-size: 25px;
+  }
+}
