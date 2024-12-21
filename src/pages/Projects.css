@@ -3,6 +3,8 @@
 }
 
 .card-main-projects {
+  max-width: 300px;
+
   background: linear-gradient(
     to right,
     rgb(192, 192, 243),
@@ -15,4 +17,10 @@
 .card-main-projects:hover {
   transform: translateY(-8px);
   box-shadow: 8px 5px 12px rgb(114, 133, 114);
+}
+
+@media (max-width: 991px) {
+  .project-main-row {
+    gap: 20px;
+  }
 }

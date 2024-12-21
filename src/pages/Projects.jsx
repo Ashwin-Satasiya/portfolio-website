@@ -23,16 +23,27 @@ const Projects = () => {
       liveDemoLink: "https://to-do-crud-app.netlify.app/",
       gitHubLink: "https://github.com/Ashwin-Satasiya/todo-app",
     },
+    {
+      title: "Weather Information App",
+      description:
+        "A beginner-friendly weather app that provides real-time weather updates for any city.It fetches data using the OpenWeather API and displays temperature, humidity, wind speed, and weather descriptions with an intuitive user interface.",
+      keyFeatures:
+        "Real-Time Data, Responsive Design, Reset Functionality, Loading Indicator, ",
+      technologiesUsed:
+        "React JS, Context API, Bootstrap, CSS, Axios, OpenWeather API",
+      liveDemoLink: "https://weather-web-app111.netlify.app/",
+      gitHubLink: "https://github.com/Ashwin-Satasiya/weather-app.git",
+    },
   ];
 
   return (
     <div className="projects-main">
-      <div className="container">
+      <div className="container px-0">
         <h2 className="text-center mb-4">Projects</h2>
-        <div className="row gap-3">
+        <div className="row project-main-row justify-content-center">
           {projectData.length > 0 &&
             projectData.map((project) => (
-              <div className="col-md-4">
+              <div className="col-md-5 col-lg-4 d-flex justify-content-center px-0">
                 <div className="card card-main-projects">
                   <div className="card-body">
                     <h5 className="card-title">{project.title}</h5>
