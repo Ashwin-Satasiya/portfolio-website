@@ -28,11 +28,20 @@ const Projects = () => {
       description:
         "A beginner-friendly weather app that provides real-time weather updates for any city.It fetches data using the OpenWeather API and displays temperature, humidity, wind speed, and weather descriptions with an intuitive user interface.",
       keyFeatures:
-        "Real-Time Data, Responsive Design, Reset Functionality, Loading Indicator, ",
+        "Real-Time Data, Responsive Design, Reset Functionality, Loading Indicator",
       technologiesUsed:
         "React JS, Context API, Bootstrap, CSS, Axios, OpenWeather API",
       liveDemoLink: "https://weather-web-app111.netlify.app/",
       gitHubLink: "https://github.com/Ashwin-Satasiya/weather-app.git",
+    },
+    {
+      title: "Contact Management",
+      description:
+        "Contact Management application where user can manage contacts (Add, Edit, & Delete).",
+      keyFeatures: "Pending",
+      technologiesUsed: "Pending",
+      liveDemoLink: "https://contact-management-123.netlify.app/",
+      gitHubLink: "https://github.com/Ashwin-Satasiya/contact-management.git",
     },
   ];
 
