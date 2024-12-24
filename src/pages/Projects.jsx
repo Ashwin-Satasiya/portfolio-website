@@ -9,7 +9,7 @@ const Projects = () => {
         "A responsive portfolio website developed using React and Bootstrap. It showcases my skills, projects, and provides a brief introduction about myself as a Frontend Developer.",
       keyFeatures:
         "Clean, user-friendly design, responsive layout, easy navigation",
-      technologiesUsed: "React, Bootstrap, CSS, JavaScript.",
+      technologiesUsed: "React, React Router, Bootstrap, CSS, JavaScript.",
       liveDemoLink: "https://portfoliowebsite-app.netlify.app/",
       gitHubLink: "https://github.com/Ashwin-Satasiya/portfolio-website",
     },
@@ -37,9 +37,11 @@ const Projects = () => {
     {
       title: "Contact Management",
       description:
-        "Contact Management application where user can manage contacts (Add, Edit, & Delete).",
-      keyFeatures: "Pending",
-      technologiesUsed: "Pending",
+        "This Contact Management application is a robust React JS project designed to manage user contact information efficiently. It provides a seamless user experience with modern UI elements and intuitive functionality.",
+      keyFeatures:
+        "CRUD Operations, Real-time Updates, Toast Notifications, Bootstrap Styling, Local Storage Integration",
+      technologiesUsed:
+        "React JS, Redux Toolkit, React Router, Bootstrap, React Toastify, Local Storage",
       liveDemoLink: "https://contact-management-123.netlify.app/",
       gitHubLink: "https://github.com/Ashwin-Satasiya/contact-management.git",
     },
@@ -52,7 +54,7 @@ const Projects = () => {
         <div className="row project-main-row justify-content-center">
           {projectData.length > 0 &&
             projectData.map((project) => (
-              <div className="col-md-5 col-lg-4 d-flex justify-content-center px-0">
+              <div className="col-md-5 col-lg-4 d-flex justify-content-center mb-3 px-0">
                 <div className="card card-main-projects">
                   <div className="card-body">
                     <h5 className="card-title">{project.title}</h5>
