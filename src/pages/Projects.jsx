@@ -11,7 +11,7 @@ const Projects = () => {
         "Clean, user-friendly design, responsive layout, easy navigation",
       technologiesUsed: "React, React Router, Bootstrap, CSS, JavaScript.",
       liveDemoLink: "https://portfoliowebsite-app.netlify.app/",
-      gitHubLink: "https://github.com/Ashwin-Satasiya/portfolio-website",
+      gitHubLink: "https://github.com/Ashwin-Satasiya/portfolio-website.git",
     },
     {
       title: "To-Do List App",
@@ -21,7 +21,7 @@ const Projects = () => {
         "Task management (add, edit, delete, complete), local storage integration, and responsive design.",
       technologiesUsed: "React JS, Bootstrap, Local Storage, JavaScript, CSS.",
       liveDemoLink: "https://to-do-crud-app.netlify.app/",
-      gitHubLink: "https://github.com/Ashwin-Satasiya/todo-app",
+      gitHubLink: "https://github.com/Ashwin-Satasiya/todo-app.git",
     },
     {
       title: "Weather Information App",
