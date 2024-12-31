@@ -1,36 +1,12 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 
 import "./Header.css";
 import { NavLink, Link } from "react-router-dom";
 
 const Header = () => {
-  const [scrolled, setScrolled] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 50) {
-        setScrolled(true);
-      } else {
-        setScrolled(false);
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
-
   return (
-    <header
-      className={
-        scrolled
-          ? "scrolled header-main navbar navbar-expand-md"
-          : "header-main navbar navbar-expand-md"
-      }
-    >
-      <div className="container">
+    <header className="header-main navbar navbar-expand-md">
+      <div className="container px-4">
         <Link className="navbar-brand" to="/">
           MyPortfolio
         </Link>
@@ -40,7 +16,7 @@ const Header = () => {
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
         >
-          <span className="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon border"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav  ms-auto">

@@ -1,16 +1,12 @@
 .header-main {
-  background: transparent;
+  background: linear-gradient(to right, #1e1e2e, #3b3b5f, #1e1e2e);
   padding: 12px 0px;
   width: 100%;
   position: fixed;
   top: 0px;
   z-index: 1000;
-  max-height: 500px;
 }
 
-.scrolled {
-  background: linear-gradient(to right, #1e1e2e, #3b3b5f, #1e1e2e);
-}
 .navbar-brand {
   color: #f8f8f2 !important;
   text-decoration: none;
